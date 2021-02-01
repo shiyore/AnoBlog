@@ -9,25 +9,41 @@ include("Layouts/header.php");
 
 //class imports
 require("../Classes/thread_data_service.php");
-$data = new thread_data_service();
-$threads = $data->getThreads();
+?>
+
+<html lang="en">
+<head>
+</head>
+<body>
+
+<div class="container">
+    <h3 class="text-center">Threads</h3>
+      <div class="container box_color">
+      <div class="row">
+        <?php
+          $data = new thread_data_service();
+          $threads = $data->getThreads();
 
 
-      while($thread = $threads->fetch_assoc())
+      foreach($threads as $thread)
       {
-          $title = $thread["title"];
-          $text = $thread["text"];
-          print($thread["text"]);
+          $title = $thread->title;
+          $text = $thread->text;
       ?>
-        <!-- This is where we put in the html code to show the products -->
-        <div class="col-sm-3 box_color">
-          
-          <div Style="height: 450px;" class="thumbnail">
-            <h3><?php echo $title; ?></h3>
-            <p><?php echo $thread["text"]; ?></p>
-          </div>
-        </div>
+    <div class="media position-relative border border-dark ml-3 mb-1">
+  <div class="media-body">
+    <h5 class="mt-0 card-header"><?php echo $title; ?></h5>
+    <p><?php echo $text; ?></p>
+    <a href="/AnoBlog/Pages/edit_thread.php?id=<?php echo $thread->id;?>&title=<?php echo $thread->title;?>&text=<?php echo $thread->text;?>" class="stretched-link">Expand</a>
+  </div>
+</div>
   
 <?php      
     }
 ?>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
