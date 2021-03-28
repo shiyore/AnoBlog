@@ -1,0 +1,26 @@
+INFO @ Sunday 28th of March 2021 04:01:55 AM log: thread_data_service::getThreads success retrieving all threads 
+INFO @ Sunday 28th of March 2021 04:02:56 AM log: thread_data_service::getThreads success retrieving all threads 
+INFO @ Sunday 28th of March 2021 04:03:35 AM log: thread_data_service::getThreads success retrieving all threads 
+INFO @ Sunday 28th of March 2021 04:06:14 AM log: thread_data_service::getThreads success retrieving all threads 
+INFO @ Sunday 28th of March 2021 04:07:08 AM log: thread_data_service::getThreads success retrieving all threads 
+INFO @ Sunday 28th of March 2021 04:18:35 AM log: Entering thread_data_service::getThreads 
+INFO @ Sunday 28th of March 2021 04:18:35 AM log: thread_data_service::getThreads success retrieving all threads 
+INFO @ Sunday 28th of March 2021 04:18:52 AM log: Entering thread_data_service::getThreads 
+INFO @ Sunday 28th of March 2021 04:18:52 AM log: thread_data_service::getThreads success retrieving all threads 
+INFO @ Sunday 28th of March 2021 04:18:58 AM log: Entering thread_data_service::getThreads 
+INFO @ Sunday 28th of March 2021 04:18:58 AM log: thread_data_service::getThreads success retrieving all threads 
+INFO @ Sunday 28th of March 2021 04:18:59 AM log: Entering thread_data_service::getThreads 
+INFO @ Sunday 28th of March 2021 04:18:59 AM log: thread_data_service::getThreads success retrieving all threads 
+INFO @ Sunday 28th of March 2021 04:20:02 AM log: Entering thread_data_service::getThreads 
+INFO @ Sunday 28th of March 2021 04:20:02 AM log: Exitingthread_data_service::getThreads success retrieving all threads 
+INFO @ Sunday 28th of March 2021 04:20:11 AM log: Entering thread_data_service::getThreads 
+INFO @ Sunday 28th of March 2021 04:20:12 AM log: Exitingthread_data_service::getThreads success retrieving all threads 
+INFO @ Sunday 28th of March 2021 04:20:14 AM log: Entering thread_data_service::getThreads 
+INFO @ Sunday 28th of March 2021 04:20:14 AM log: Exitingthread_data_service::getThreads success retrieving all threads 
+INFO @ Sunday 28th of March 2021 04:20:15 AM log: Entering thread_data_service::getThreads 
+INFO @ Sunday 28th of March 2021 04:20:15 AM log: Exitingthread_data_service::getThreads success retrieving all threads 
+INFO @ Sunday 28th of March 2021 05:23:23 AM log: Entering thread_data_service::getThreads 
+INFO @ Sunday 28th of March 2021 05:24:25 AM log: Entering thread_data_service::getThreads 
+INFO @ Sunday 28th of March 2021 05:24:25 AM log: Entering database::getConnected 
+INFO @ Sunday 28th of March 2021 05:24:25 AM log: Exiting database::getConnected 
+INFO @ Sunday 28th of March 2021 05:24:25 AM log: Exiting thread_data_service::getThreads success retrieving all threads 

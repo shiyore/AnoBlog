@@ -1,0 +1,23 @@
+2021-03-28T03:37:13+00:00 [myLogger] Test
+Sunday 28th of March 2021 03:45:30 AM [myLogger] Test 
+INFO: Sunday 28th of March 2021 03:47:02 AM [myLogger]: Test 
+INFO @ Sunday 28th of March 2021 03:48:22 AM log: Test 
+INFO @ Sunday 28th of March 2021 03:51:58 AM log: thread_data_service::addThread@thread_data_servicesuccessfuly query 
+INFO @ Sunday 28th of March 2021 03:54:39 AM log: thread_data_service::addThreadsuccess w/ title=asdfae & text=asdfae 
+INFO @ Sunday 28th of March 2021 04:01:55 AM log: thread_data_service::deleteThread success w/ title=asdfae 
+INFO @ Sunday 28th of March 2021 04:02:56 AM log: thread_data_service::updateThread success w/ title= & text= 
+INFO @ Sunday 28th of March 2021 04:03:35 AM log: thread_data_service::updateThread success w/ title=asdfae & text=Changing again 
+INFO @ Sunday 28th of March 2021 04:06:14 AM log: thread_data_service::updateThread success w/ title='asdfae' & text='Changing again' 
+INFO @ Sunday 28th of March 2021 04:07:08 AM log: thread_data_service::deleteThread success w/ title='asdfae' 
+INFO @ Sunday 28th of March 2021 04:18:52 AM log: Entering thread_data_service::addThread 
+INFO @ Sunday 28th of March 2021 04:18:52 AM log: thread_data_service::addThread success w/ title='Testing for logging' & text='this is a test thread for my logging services' 
+INFO @ Sunday 28th of March 2021 04:18:58 AM log: Entering thread_data_service::updateThread 
+INFO @ Sunday 28th of March 2021 04:18:58 AM log: thread_data_service::updateThread success w/ title='Testing for logging' & text='this is a test thread for my logging services' 
+INFO @ Sunday 28th of March 2021 04:18:59 AM log: Entering thread_data_service::deleteThread 
+INFO @ Sunday 28th of March 2021 04:18:59 AM log: thread_data_service::deleteThread success w/ title='Testing for logging' 
+INFO @ Sunday 28th of March 2021 04:20:11 AM log: Entering thread_data_service::addThread 
+INFO @ Sunday 28th of March 2021 04:20:11 AM log: Exitingthread_data_service::addThread success w/ title='Test for logging' & text='Teatiaonsdfae' 
+INFO @ Sunday 28th of March 2021 04:20:13 AM log: Entering thread_data_service::updateThread 
+INFO @ Sunday 28th of March 2021 04:20:14 AM log: Exitingthread_data_service::updateThread success w/ title='Test for logging' & text='Teatiaonsdfae' 
+INFO @ Sunday 28th of March 2021 04:20:15 AM log: Entering thread_data_service::deleteThread 
+INFO @ Sunday 28th of March 2021 04:20:15 AM log: Exitingthread_data_service::deleteThread success w/ title='Test for logging' 

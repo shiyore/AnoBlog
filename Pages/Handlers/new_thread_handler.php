@@ -3,8 +3,9 @@
 //CST-323
 //01-10-21
 //This is my own work
-
+include('../Layouts/header.php');
 //This is for handling the creation of a new thread
+require("../../Classes/thread.php");
 require("../../Classes/thread_data_service.php");
 
 //getting form data

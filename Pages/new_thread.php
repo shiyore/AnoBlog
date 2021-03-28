@@ -5,7 +5,8 @@
 //This is my code mixed with some of bootstrap's css classes
 
     //navbar
-    include("Layouts/header.php"); 
+    include("Layouts/header.php");
+    
 ?>
 
 <div class="container">
