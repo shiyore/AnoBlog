@@ -17,7 +17,7 @@ require("../Classes/thread_data_service.php");
 <body>
 
 <div class="container">
-    <h3 class="text-center">Threads</h3>
+    <h3 class="text-center">Threads Changed</h3>
       <div class="container box_color">
       <div class="row">
         <?php
