@@ -12,14 +12,14 @@ class database{
     }
     function getConnected(){
         $this->logger->info("Entering " . __METHOD__ );
-        $this->dbhost = 'localhost';
-        $this->dbuser = 'root';
-        $this->dbpass = 'root';
-        $this->dbname = 'anoblog';
-        $this->port = '';
+        $this->dbhost = 'j21q532mu148i8ms.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+        $this->dbuser = 'vu1q2b90881brqaz';
+        $this->dbpass = 'onpqdxt92h41ycms';
+        $this->dbname = 'xc75zuckgn15l4js';
+        $this->port = '3306';
         
         //connect to the db
-        $this->dbconnect = new mysqli($this->dbhost , $this->dbuser , $this->dbpass,$this->dbname);
+        $this->dbconnect = new mysqli($this->dbhost , $this->dbuser , $this->dbpass,$this->dbname,$this->port);
         if($this->dbconnect->connect_error){
             die('Failed to connect to MySQL: ' . $this->dbconnect->connect_error);
         }
